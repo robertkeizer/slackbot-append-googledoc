@@ -1,4 +1,18 @@
 {
 	"name": "slackbot-append-googledoc",
-	"version": "0.0.1"
+	"version": "0.0.1",
+	"main": "./lib/main.js",
+	"scripts": {
+		"test": "./node_modules/mocha/bin/mocha"
+	},
+	"dependencies": {
+		"async": "^2.5.0",
+		"google-auth-library": "^0.11.0",
+		"joi": "^13.0.1",
+		"slackbots": "^1.1.0"
+	},
+	"devDependencies": {
+		"assert": "^1.4.1",
+		"mocha": "^4.0.1"
+	}
 }
